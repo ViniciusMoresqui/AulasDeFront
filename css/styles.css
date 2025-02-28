@@ -1,14 +1,38 @@
+
 body{
 
-    background-color: black;
-    color: white;
+background-color: black;
 
 }
 
-img{
+.titulo{
 
-display: flex;
-justify-content: center;
+color: aliceblue; 
 align-items: center;
+text-align: center;
+
+}
+
+.container{
+
+    width: 80%;  /* Largura da borda (pode ajustar conforme necessário) */
+    max-width: 1200px;  /* Limita a largura máxima */
+    margin: 50px auto;  /* Centraliza horizontalmente */
+    padding: 20px;  /* Espaçamento interno */
+    border: 5px solid #dd0f0f;  /* Cor e espessura da borda */
+    border-radius: 15px;  /* Arredonda os cantos da borda */
+
+
+}
+
+.Tesão{
+
+    width: 200pix;              /* Ajusta a largura automaticamente com base no conteúdo */
+    display: flex;            /* Torna o contêiner um Flexbox */
+    justify-content: center;  /* Centraliza os itens horizontalmente */
+    margin-left: auto;        /* Aplica margem automática à esquerda (ajuda a empurrar para a direita) */
+    margin-right: auto;       /* Aplica margem automática à direita (ajuda a empurrar para a esquerda) */
+    height: auto;             /* Ajusta a altura automaticamente com base no conteúdo */
+    text-align: block;        /* **Erro**: 'block' não é um valor válido para text-align, use 'left', 'center' ou 'right' */
 
 }
