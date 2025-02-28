@@ -1,0 +1,32 @@
+p {
+
+    color: blue;
+}
+
+body{
+
+background-color: black;
+text-align: center;
+color: white;
+
+}
+
+.titulo{
+    font-size: large;
+}
+
+#texto-branco{
+    color: white;
+}
+
+.top{
+    background-color: brown;
+}
+
+.conteudo{
+background-color: chocolate;
+}
+
+.rodape{
+background-color: chocolate;
+}
