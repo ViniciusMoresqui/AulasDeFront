@@ -26,5 +26,6 @@ align-items: center;
 th{
     background-color: #000;
     color: white;
-
+    align-items: center;
+    justify-content: center;
 }
