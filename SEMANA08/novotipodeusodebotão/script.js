@@ -4,10 +4,16 @@ const botao = document.getElementById('meuBotao');
 
 const evento = document.getElementById('evento');
 
-const travar = document.getElementById.apply('evento');
+const travar = document.getElementById('travar');
 
 botao.addEventListener('click', 
     imprimir
+);
+
+botao.addEventListener('mouseover', 
+    function (){
+        evento.innerHTML = alert("Você foi invadido");
+    }
 );
 
 botao.addEventListener('mouseover', 
@@ -25,11 +31,7 @@ botao.addEventListener('mouseout',
 travar.addEventListener('click', 
     function (){
         while(true){
-            evento.innerHTML = alert("<h1>OI</h1>");
+            evento.innerHTML = alert("<h1>sdfdg</h1>");
         }
     }
 );
-
-function imprimir(){
-    mensagem.textContent = "Você cliclou em mim.";
-}
