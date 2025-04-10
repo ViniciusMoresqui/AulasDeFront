@@ -12,6 +12,7 @@ botao.addEventListener('click', function(){
     vetor.push(item);
     entrada.value = "";
     console.log(vetor);
+
     saida();
 });
 
@@ -25,7 +26,7 @@ function saida(){
     } 
 }
 
-botao.addEventListener('click', function(){
+remover.addEventListener('click', function(){
     vetor.pop();
     saida();
 });
